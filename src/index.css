@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Optional: Custom base styles */
+@base {
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+}
