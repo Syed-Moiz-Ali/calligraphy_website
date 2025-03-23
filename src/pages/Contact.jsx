@@ -51,12 +51,12 @@ function Contact() {
                 
                 <div className="max-w-6xl mx-auto">
                     <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-                        <div className="grid grid-cols-1 lg:grid-cols-5">
+                        <div className="grid grid-cols-1 lg:grid-cols-5 ">
                             {/* Contact Info Panel - 2/5 width on desktop */}
-                            <AnimateDiv type="parallax" className="lg:col-span-2 bg-primary text-white p-8 lg:p-12">
+                            <AnimateDiv type="parallax" className="lg:col-span-2 bg-primary text-black p-8 lg:p-12 ">
                                 <h2 className="text-2xl font-semibold mb-6">Get In Touch</h2>
                                 
-                                <div className="space-y-8 mb-12">
+                                <div className="space-y-8 mb-12 ">
                                     <div className="flex items-start">
                                         <div className="flex-shrink-0 mr-4">
                                             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -65,7 +65,7 @@ function Contact() {
                                         </div>
                                         <div>
                                             <h3 className="font-medium mb-1">Email</h3>
-                                            <a href="mailto:hello@calligraphyframes.com" className="text-white/90 hover:text-white transition-colors">
+                                            <a href="mailto:hello@calligraphyframes.com" className=" hover:text-indigo-600 transition-colors">
                                                 hello@calligraphyframes.com
                                             </a>
                                         </div>
@@ -79,8 +79,8 @@ function Contact() {
                                         </div>
                                         <div>
                                             <h3 className="font-medium mb-1">Phone</h3>
-                                            <a href="tel:+15551234567" className="text-white/90 hover:text-white transition-colors">
-                                                (555) 123-4567
+                                            <a href="tel:+15551234567" className="hover:text-indigo-600 transition-colors">
+                                                (91) 123-4567-890
                                             </a>
                                         </div>
                                     </div>
@@ -94,16 +94,16 @@ function Contact() {
                                         </div>
                                         <div>
                                             <h3 className="font-medium mb-1">Studio Location</h3>
-                                            <p className="text-white/90">
-                                                123 Artisan Way<br />
-                                                Craftsville, CA 94123
+                                            <p className="hover:text-indigo-600">
+                                                Bahadurpura<br />
+                                                Hyderabad, Telangana,India
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 
                                 <div className="pt-8 border-t border-white/20">
-                                    <h3 className="font-medium mb-4">Connect With Us</h3>
+                                    <h3 className="font-medium mb-4 ">Connect With Us</h3>
                                     <div className="flex space-x-4">
                                         <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors" aria-label="Instagram">
                                             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

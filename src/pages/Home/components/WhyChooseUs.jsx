@@ -31,7 +31,7 @@ function WhyChooseUs() {
                             Our Commitment
                         </span>
                         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white">
-                            Why Choose <span className="text-primary dark:text-primary-light">Togra Frames</span>?
+                            Why Choose <span className="italic font-serif text-indigo-600">Togra Frames ?</span>
                         </h2>
                         <p className="mt-4 max-w-2xl mx-auto text-lg text-gray-600 dark:text-gray-300">
                             We combine traditional Indian calligraphy artistry with modern design sensibilities to create pieces that truly stand out.

@@ -110,7 +110,7 @@ function CustomOrder() {
                     <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
                         <div className="grid grid-cols-1 lg:grid-cols-3">
                             {/* Left side info panel */}
-                            <AnimateDiv type="parallax" className="bg-primary text-white p-8 lg:p-12">
+                            <AnimateDiv type="parallax" className="bg-primary  p-8 lg:p-12">
                                 <h2 className="text-2xl font-semibold mb-6">Why Choose Custom?</h2>
                                 <div className="space-y-8">
                                     <div className="flex items-start">
@@ -121,7 +121,7 @@ function CustomOrder() {
                                         </div>
                                         <div>
                                             <h3 className="font-medium mb-1">Personalized Design</h3>
-                                            <p className="text-white/80 text-sm">Tailor every aspect to your preferences and style</p>
+                                            <p className=" text-sm">Tailor every aspect to your preferences and style</p>
                                         </div>
                                     </div>
                                     
@@ -133,7 +133,7 @@ function CustomOrder() {
                                         </div>
                                         <div>
                                             <h3 className="font-medium mb-1">Artisan Craftsmanship</h3>
-                                            <p className="text-white/80 text-sm">Handcrafted by our skilled calligraphy artists</p>
+                                            <p className=" text-sm">Handcrafted by our skilled calligraphy artists</p>
                                         </div>
                                     </div>
                                     
@@ -145,15 +145,15 @@ function CustomOrder() {
                                         </div>
                                         <div>
                                             <h3 className="font-medium mb-1">Timely Delivery</h3>
-                                            <p className="text-white/80 text-sm">Typically ready within 2-3 weeks of approval</p>
+                                            <p className=" text-sm">Typically ready within 2-3 weeks of approval</p>
                                         </div>
                                     </div>
                                 </div>
                                 
                                 <div className="mt-12 pt-8 border-t border-white/20">
-                                    <span className="text-sm font-medium text-white/70">Questions?</span>
-                                    <p className="text-white mt-1">Contact our design team at</p>
-                                    <a href="mailto:design@calligraphyframes.com" className="text-white underline hover:text-white/80 transition-colors">
+                                    <span className="text-sm font-medium text-black/70">Questions?</span>
+                                    <p className="text-black mt-1">Contact our design team at</p>
+                                    <a href="mailto:design@calligraphyframes.com" className="text-black underline hover:text-black/80 transition-colors">
                                         design@calligraphyframes.com
                                     </a>
                                 </div>

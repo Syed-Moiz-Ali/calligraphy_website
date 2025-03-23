@@ -30,7 +30,9 @@ function NewsletterSignup() {
                         Join Our Community
                     </span>
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4 tracking-tight">
-                        Stay in the Loop
+                        Stay in <span className="italic font-serif text-indigo-600">
+                            the Loop
+                        </span>
                     </h2>
                     <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                         Sign up to receive exclusive offers, new product alerts, and design inspiration delivered straight to your inbox.

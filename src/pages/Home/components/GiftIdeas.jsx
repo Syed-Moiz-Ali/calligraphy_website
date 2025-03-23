@@ -54,7 +54,7 @@ function GiftIdeas() {
                 <AnimateDiv type="bounce" className="text-center max-w-3xl mx-auto mb-12">
                     <span className="inline-block py-1 px-3 rounded-full text-xs font-medium uppercase tracking-wider text-primary bg-indigo-600/10 mb-3">Thoughtful Selections</span>
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4 tracking-tight">
-                        Perfect Gift Ideas
+                        Perfect <span className="italic font-serif text-indigo-600"> Gift Ideas</span>
                     </h2>
                     <p className="text-lg text-gray-600 dark:text-gray-300">
                         Discover meaningful presents for every special occasion, handcrafted with care.

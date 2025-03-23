@@ -21,9 +21,13 @@ function Header() {
         setIsMenuOpen(!isMenuOpen);
     };
 
-    // Close menu when clicking a link (mobile)
-    const closeMenu = () => {
+    // Close menu and scroll to top
+    const closeMenuAndScrollToTop = () => {
         setIsMenuOpen(false);
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // Smooth scrolling for a better user experience
+        });
     };
 
     return (
@@ -41,7 +45,7 @@ function Header() {
                         <NavLink 
                             to="/" 
                             className="flex items-center space-x-2 text-primary transition-colors hover:text-accent"
-                            onClick={closeMenu}
+                            onClick={closeMenuAndScrollToTop} // Updated to scroll to top
                         >
                             <svg className="h-8 w-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M20 6H4C2.89543 6 2 6.89543 2 8V16C2 17.1046 2.89543 18 4 18H20C21.1046 18 22 17.1046 22 16V8C22 6.89543 21.1046 6 20 6Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -71,6 +75,7 @@ function Header() {
                                                 : 'text-primary hover:text-accent'
                                             }
                                         `}
+                                        onClick={closeMenuAndScrollToTop} // Updated to scroll to top
                                     >
                                         {({ isActive }) => (
                                             <>
@@ -145,7 +150,7 @@ function Header() {
                                     : 'text-primary hover:text-accent border-l-2 border-transparent hover:border-accent/50 hover:pl-5'
                                 }
                             `}
-                            onClick={closeMenu}
+                            onClick={closeMenuAndScrollToTop} // Updated to scroll to top
                         >
                             {item}
                         </NavLink>

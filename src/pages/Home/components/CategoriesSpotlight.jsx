@@ -36,8 +36,11 @@ function CategoriesSpotlight() {
         <section className="px-4 py-16 md:py-24 max-w-7xl mx-auto">
             <AnimateDiv type="parallax">
                 <div className="mb-16 max-w-3xl mx-auto text-center">
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4 tracking-tight">
-                        Explore by Category
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4 tracking-tight ">
+                    Explore by <span className="italic font-serif text-indigo-600">
+                        Category
+                        </span>
+                       
                     </h2>
                     <p className="text-gray-600 dark:text-gray-300 text-lg max-w-2xl mx-auto">
                         Discover our handcrafted collection of premium frames, each designed to perfectly complement your most cherished moments.

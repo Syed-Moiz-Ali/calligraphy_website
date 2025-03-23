@@ -53,7 +53,8 @@ function FAQs() {
 
     return (
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-16 bg-parchment-light rounded-lg shadow-elegant">
-            <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-2 text-center italic font-serif">Frequently Asked Questions</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-2 text-center italic font-serif">Frequently Asked <span className="italic font-serif text-indigo-600"> Questions?</span>
+            </h2>
             <p className="text-center text-accent mb-12 italic">Everything you need to know about our calligraphy services</p>
             
             <div className="divide-y divide-accent/20">
